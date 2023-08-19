@@ -1,12 +1,12 @@
-# Maintainer: 3ric <github.com/X3ric>
+# Maintainer: 3ric <github.com/laluxx>
 
 pkgname=picom-x
-_gitname=picom
+_gitname=picomx
 pkgver=1907_9.rc1.229.gf674e38_2023.06.18
 pkgrel=1
 pkgdesc="X compositor (fork of compton) (git-version)"
 arch=(i686 x86_64)
-url="https://github.com/X3ric/${_gitname}"
+url="https://github.com/laluxx/${_gitname}"
 license=('MIT' 'MPL2')
 depends=('libgl' 'libev' 'pcre' 'libx11' 'xcb-util-renderutil' 'libxcb' 'xcb-util-image' 'libxext'
          'pixman' 'libconfig' 'libdbus' 'hicolor-icon-theme')
@@ -18,7 +18,7 @@ optdepends=('dbus:          To control picom via D-Bus'
 provides=('compton' 'compton-git' 'picom')
 conflicts=('compton' 'compton-git' 'picom')
 replaces=('compton-git')
-source=(git+"https://github.com/X3ric/${_gitname}.git#branch=next")
+source=(git+"https://github.com/laluxx/${_gitname}.git#branch=next")
 md5sums=("SKIP")
 
 pkgver() {
