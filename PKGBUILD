@@ -18,7 +18,7 @@ optdepends=('dbus:          To control picom via D-Bus'
 provides=('compton' 'compton-git' 'picom')
 conflicts=('compton' 'compton-git' 'picom')
 replaces=('compton-git')
-source=(git+"https://github.com/laluxx/${_gitname}.git#branch=next")
+source=(git+"https://github.com/laluxx/${_gitname}.git#branch=main")
 md5sums=("SKIP")
 
 pkgver() {
